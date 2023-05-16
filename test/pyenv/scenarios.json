@@ -1,0 +1,18 @@
+{
+    "ubuntu-3.10": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "pyenv": {
+                "default": "3.10"
+            }
+        }
+    },
+    "ubuntu-3.8": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "pyenv": {
+                "default": "3.8"
+            }
+        }
+    }
+}
