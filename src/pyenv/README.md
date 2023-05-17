@@ -7,7 +7,7 @@ A feature that installs pyenv and some specified python versions
 
 ```json
 "features": {
-    "ghcr.io/sachitv/useful-devcontainer-features/pyenv:0": {}
+    "ghcr.io/sachitv/useful-devcontainer-features/pyenv:1": {}
 }
 ```
 
@@ -15,7 +15,7 @@ A feature that installs pyenv and some specified python versions
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| default | The default version of Python to install | string | 3.11 |
+| versions | A list of comma separated values of versions or a string representing a single version. The first value is the default version of Python to install. | string | 3.11 |
 
 
 
