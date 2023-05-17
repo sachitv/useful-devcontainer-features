@@ -1,13 +1,17 @@
 {
     "name": "PyEnv",
     "id": "pyenv",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "A feature that installs pyenv and some specified python versions",
     "options": {
-        "default": {
+        "versions": {
             "type": "string",
             "default": "3.11",
-            "description": "The default version of Python to install"
+            "description": "A list of comma separated values of versions or a string representing a single version. The first value is the default version of Python to install.",
+            "proposals": [
+                "3.11",
+                "3.8,3.9,3.10,3.11"
+            ]
         }
     },
     "installsAfter": [

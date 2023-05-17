@@ -10,6 +10,7 @@ source dev-container-features-test-lib
 # The 'check' command comes from the dev-container-features-test-lib. Syntax is...
 # check <LABEL> <cmd> [args...]
 check "pyenv installed" bash -c "pyenv local 3.10"
+check "pyenv installed" bash -c "pyenv local 3.8"
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
