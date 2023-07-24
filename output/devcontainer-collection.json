@@ -1,0 +1,17 @@
+{
+    "sourceInformation": {
+        "source": "devcontainer-cli"
+    },
+    "features": [
+        {
+            "name": "Extism",
+            "id": "extism",
+            "version": "1.0.0",
+            "description": "A feature that installs extism",
+            "installsAfter": [
+                "ghcr.io/devcontainers/features/common-utils:2.0.10",
+                "ghcr.io/devcontainers/features/python:1"
+            ]
+        }
+    ]
+}

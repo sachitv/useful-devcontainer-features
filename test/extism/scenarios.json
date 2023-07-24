@@ -1,0 +1,10 @@
+{
+    "ubuntu": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "extism": {},
+            "ghcr.io/devcontainers/features/python:1": {},
+            "ghcr.io/devcontainers/features/common-utils:2.0.10": {}
+        }
+    }
+}
